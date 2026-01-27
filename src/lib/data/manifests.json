@@ -6,7 +6,8 @@
 		{ "id": "m5stack-core4mb", "name": "Core4mb", "family": "ESP32" },
 		{ "id": "m5stack-cores3", "name": "CoreS3", "family": "ESP32-S3" },
 		{ "id": "m5stack-cplus1_1", "name": "StickCPlus 1.1", "family": "ESP32" },
-		{ "id": "m5stack-cplus2", "name": "StickCPlus2", "family": "ESP32" }
+		{ "id": "m5stack-cplus2", "name": "StickCPlus2", "family": "ESP32" },
+		{ "id": "m5stack-sticks3", "name": "StickS3", "family": "ESP32-S3" }
 	],
 	"Lilygo": [
 		{ "id": "lilygo-t-deck-pro", "name": "Lilygo T-Deck Plus", "family": "ESP32-S3" },
@@ -19,8 +20,7 @@
 		{ "id": "lilygo-t-display-ttgo", "name": "Lilygo T-Display (TTGO)", "family": "ESP32" },
 		{ "id": "lilygo-t-embed-cc1101", "name": "Lilygo T-Embed CC1101", "family": "ESP32-S3" },
 		{ "id": "lilygo-t-embed", "name": "Lilygo T-Embed", "family": "ESP32-S3" },
-		{ "id": "lilygo-t-watch-s3", "name": "Lilygo T-Watch S3", "family": "ESP32-S3" },
-		{ "id": "lilygo-t-hmi", "name": "Lilygo T-HMI", "family": "ESP32-S3" },
+		{ "id": "lilygo-t-watch-s3", "name": "Lilygo T-Watch S3", "family": "ESP32-S3" }, { "id": "lilygo-t-hmi", "name": "Lilygo T-HMI", "family": "ESP32-S3" },
 		{ "id": "lilygo-t-lora-pager", "name": "Lilygo T-LoRa Pager", "family": "ESP32-S3" }
 	],
 	"CYD": [
@@ -44,7 +44,8 @@
 		{ "id": "Marauder-v7", "name": "Marauder v7", "family": "ESP32" },
 		{ "id": "WaveSentry-R1", "name": "WaveSentry", "family": "ESP32" },
 		{ "id": "Phantom_S024R", "name": "The Phantom (Rabbit Labs)", "family": "ESP32" },
-		{ "id": "smoochiee-board", "name": "Smoochiee-Board (ESP32-S3)", "family": "ESP32-S3" }
+		{ "id": "smoochiee-board", "name": "Smoochiee-Board (ESP32-S3)", "family": "ESP32-S3" },
+		{ "id": "reaper", "name": "RF-Reaper-Board (ESP32-S3)", "family": "ESP32-S3" }
 	],
 	"Launcher": [
 		{ "id": "LAUNCHER_CYD-2432S028", "name": "CYD-2432S028", "family": "ESP32" },

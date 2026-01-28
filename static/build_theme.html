@@ -579,6 +579,11 @@
                     <input type="checkbox" id="labels">
                     <label for="labels">Labels (reduces height by 40px)</label>
                 </div>
+                <div class="control-item" style="margin-top: 15px;">
+                    <label for="gifDurationInput">GIF Duration: (only applies to GIF themes)</label>
+                    <input type="number" id="gifDurationInput" class="form-text" min="-1" value="-1"/>
+                    <label style="font-family: monospace;">-1=Loops Forever<br>0=One Loop<br>1+=Number of milliseconds to loop</label>
+                </div>
             </div>
         </div>
 
@@ -805,6 +810,7 @@
             mapping.ledEffect = document.getElementById('ledEffectInput').value;
             mapping.ledEffectSpeed = document.getElementById('ledSyncToEncoder').checked ? 11 : document.getElementById('ledEffectSpeedInput').value;
             mapping.ledEffectDirection = document.getElementById('ledEffectDirection').checked ? -1 : 1;
+            mapping.gifDuration = parseInt(document.getElementById('gifDurationInput').value);
 
             return mapping;
         }
@@ -822,6 +828,7 @@
 
             const hasLabels = document.getElementById('labels').checked;
             const hasBorder = document.getElementById('border').checked;
+            const gifDuration = parseInt(document.getElementById('gifDurationInput').value);
             const totalToProcess = heights.length * Object.keys(selectedImages).length;
 
             if (totalToProcess === 0) {
